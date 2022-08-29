@@ -1,10 +1,24 @@
 <template>
-    <div class="block">Click Me!</div>
+    <div class="block" v-if="showBlock">Click Me!</div>
 </template>
 
 <script>
 export default {
     props: ['delay'],
+    data() {
+        return {
+            showBlock: false,
+        }
+    },
+    mounted() {
+        setTimeout(() => {
+            this.showBlock = true;
+        }, this.delay)
+
+    },
+    updated() {
+
+    }
 }
 </script>
 
@@ -17,5 +31,8 @@ export default {
     text-align: center;
     padding-top: 6rem;
     margin: 4rem auto;
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 </style>
