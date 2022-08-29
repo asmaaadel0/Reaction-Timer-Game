@@ -13,10 +13,10 @@ export default {
     },
     mounted() {
         console.log(this.score);
-        if (this.score < 250) {
+        if (this.score < 300) {
             this.rank = "GREAT JOP!";
         }
-        else if (this.score < 400) {
+        else if (this.score < 500) {
             this.rank = "GOOD JOP!";
         }
         else {
