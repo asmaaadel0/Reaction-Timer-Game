@@ -4,18 +4,18 @@
 
 <script>
 export default {
-
+    props: ['delay'],
 }
 </script>
 
 <style>
 .block {
-    background-color: rgb(207, 159, 228);
-    width: 30%;
-    height: 30%;
+    background-color: rgba(86, 32, 109, 0.611);
+    width: 25rem;
+    height: 8rem;
     border-radius: 2rem;
     text-align: center;
-    padding: 5rem;
+    padding-top: 6rem;
     margin: 4rem auto;
 }
 </style>
