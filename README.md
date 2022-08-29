@@ -24,8 +24,13 @@
 - npm run serve
 
 ## Website link <a name = "link"></a>
-- https://reaction-time-play.netlify.app/
 
+- Firebase Hosting:
+  - https://reaction-time-game-f1857.web.app/
+  
+- Netlify Hosting:
+  - https://reaction-time-play.netlify.app/
+  
 ## Contributors <a name = "Contributors"></a>
 
 <table>
