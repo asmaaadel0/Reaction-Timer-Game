@@ -1,17 +1,18 @@
 <template>
-    <p v-if="showResult">Reaction Time - {{  score  }} ms</p>
-    <p v-if="showResult" class="rank">{{  rank  }}</p>
+    <p>Reaction Time - {{  score  }} ms</p>
+    <p class="rank">{{  rank  }}</p>
 </template>
 
 <script>
 export default {
-    props: ['showResult', "score"],
+    props: ['score'],
     data() {
         return {
-            rank: null,
+            rank: '',
         }
     },
     mounted() {
+        console.log(this.score);
         if (this.score < 250) {
             this.rank = "GREAT JOP!";
         }

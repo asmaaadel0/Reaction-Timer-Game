@@ -4,7 +4,7 @@
   <div v-if="isStarting">
     <the-block :delay="delay" @end="endGame"></the-block>
   </div>
-  <the-results :showResult="showResult" :score="score"></the-results>
+  <the-results v-if="showResult" :score="score"></the-results>
 
 </template>
 
@@ -75,5 +75,9 @@ button[disabled] {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+html{
+  
+  background-color: #f2fdfd;
 }
 </style>

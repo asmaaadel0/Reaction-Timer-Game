@@ -1,5 +1,7 @@
 <template>
-    <div class="block" v-if="showBlock" @click="stopTimer">Click Me!</div>
+    <transition name="box">
+        <div class="block" v-if="showBlock" @click="stopTimer">Click Me!</div>
+    </transition>
 </template>
 
 <script>
@@ -45,5 +47,25 @@ export default {
     color: white;
     font-weight: 600;
     font-size: 1.6rem;
+}
+
+.box-enter-from,
+.box-leave-to {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.box-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+.box-leave-to {
+    transition: all 0.3s ease-in;
+}
+
+.box-enter-to,
+.box-leave-form {
+    opacity: 1;
+    transform: scale(1);
 }
 </style>
