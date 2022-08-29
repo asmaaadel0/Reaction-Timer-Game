@@ -25,8 +25,7 @@
 - npm run serve
 
 ## Website link <a name = "link"></a>
-- Netlify Hosting:
-  - https://reaction-time-play.netlify.app/
+- https://reaction-time-play.netlify.app/
 
 ## Contributors <a name = "Contributors"></a>
 
