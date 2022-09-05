@@ -5,7 +5,7 @@
 - [Project setup <a name = "Project-setup"></a>](#project-setup-)
 - [Compiles and hot-reloads for development <a name = "Compiles-and-hot-reloads-for-development"></a>](#compiles-and-hot-reloads-for-development-)
 - [Website link <a name = "link"></a>](#website-link-)
-- [ScreenShots from the game: <a name = "screen-shots"></a>](#screenshots-from-the-game-)
+- [ScreenShots from the game <a name = "screen-shots"></a>](#screenshots-from-the-game-)
 - [Contributors <a name = "Contributors"></a>](#contributors-)
 
 ## About <a name = "about"></a>
