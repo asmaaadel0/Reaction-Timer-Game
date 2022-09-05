@@ -31,6 +31,10 @@
 - Netlify Hosting:
   - https://reaction-time-play.netlify.app/
   
+- Vercel Hosting:
+  - https://reaction-timer-game.vercel.app/
+  
+  
 ## Contributors <a name = "Contributors"></a>
 
 <table>
